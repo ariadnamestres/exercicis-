@@ -3,11 +3,10 @@ import "./App.css";
 import Graella from "./Graella";
 
 function App() {
-  let display = 0;
   return (
     <>
-      <div> (display)</div>
-      <Graella></Graella>
+      <div className="App"> (display)</div>
+      <Graella />
     </>
   );
 }
