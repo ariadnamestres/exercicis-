@@ -9,8 +9,8 @@ export default function Graella() {
   const [imatgeClicada, setImatgeClicada] = useState(null);
   const [cssClass, setCssClass] = useState("");
 
-  function canvi(imatge) {
-    setImatgeClicada(imatge);
+  function canvi(props) {
+    setImatgeClicada(props);
     if (cssClass === "") {
       setCssClass("gran");
     } else {
