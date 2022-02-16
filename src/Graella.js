@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 export default function Graella() {
   const fotos = new Array(
     "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/5d137e105cafe826be509e41/buho0.jpg",
